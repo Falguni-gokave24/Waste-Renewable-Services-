@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Reg_CSS.css">
+</head>
+
+<body>
+    <div class="cont">
+        <div class="con1" id="input">
+            <center><h2>Give your Waste</h2></center>
+            <h4> Choose your product category:</h4>
+            <select class="product_type">
+                <option value="">select any one</option>
+                <option value="Earphones/Headphones">Earphones/Headphones</option>
+                <option value="Fridge">Fridge</option>
+                <option value="Laptop/TV">Laptop/TV</option>
+                <option value="cables">cables</option>
+                <option value="Telecom Equipments">Telecom Equipments</option>
+                <option value="Battery Disposal">Battery Disposal</option>
+                <option value="plastic">plastic</option>
+                <option value="clothing">clothing</option>
+                <option value="wooden material">wooden material</option>
+            </select>
+            <div class="probrand">
+                <h4>Choose your product Brand:</h4>
+            </div>
+            <select class="brand">
+                <option value="">select any one</option>
+                <option value="samsung">Samsung</option>
+                <option value="apple">Apple</option>
+                <option value="redmi">Redmi</option>
+                <option value="lenovo">Lenovo</option>
+                <option value="hp">Hp</option>
+                <option value="dell">Dell</option>
+                <option value="puma">puma</option>
+                <option value="adidas">adidas</option>
+                <option value="nike">nike</option>
+                <option value="levi's">levis</option>
+
+            </select>
+
+            <div class="desc">
+                <div class="area"> Write something about your product </div>
+                <!-- <input type="text" placeholder="Describe about your product"> -->
+               <center><textarea rows="4" cols="50" placeholder="Describe about your product"></textarea></center>
+       </div>
+       </div>
+
+        <div class="con1">
+            <div class="tit">
+                Add images of the product
+                <input type="file">
+            </div>
+            
+            <img src="D:\cpp_project\project\e-waste (1).jpg" alt="Click here to add your products">
+            <!-- <div class="btn">
+                Submit
+            </div> -->
+            <div class="btn">
+               
+                <section>
+                    <button class="show-modal">Post</button>
+                    <span class="overlay"></span>
+                    <div class="modal-box">
+                      <i class="fa-regular fa-circle-check"></i>
+                      <center><h2>Thank You</h2></center>
+                      <h3>You have sucessfully Registered.
+                        Your Coupon is ready
+                      </h3>
+                      <div class="buttons">
+                        <button class="close-btn">Ok, Close</button>
+                        <button class="button">Coupon</button>
+                        </div>
+
+                        <div class="coupon-container">
+                            <div class="coupon">
+                              <div class="coupon-header">
+                                <h2>Coupon Code</h2>
+                              </div>
+                              <div class="coupon-body">
+                                <p>Use the code <strong>SALE2023</strong> to get 20% off your next purchase!</p>
+                              </div>
+                              <div class="coupon-footer">
+                                <p>Valid through Dec 31, 2023</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          
+                      </div>
+                    </div>
+                  </section>
+              
+            </div>
+        </div>
+    
+    
+    </div>
+    <script src="scriptSend.js"></script>
+</body>
+</html>
