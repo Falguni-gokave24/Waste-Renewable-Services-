@@ -65,4 +65,5 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ✨ Authors
 Name: 1.Falguni P. Gokave  2.Chaitanya V. Kaypure  3.Srushti S. Patil  4.Ankita B. Talandage
-Institution: Latthe Education Society's Polytecnic , Sangli.
+
+Institution: Latthe Education Society's Polytechnic , Sangli.
